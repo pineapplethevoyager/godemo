@@ -7,4 +7,10 @@ const (
 const (
 	zero = iota
 	one
+	test
 )
+
+func main() {
+	println(first, second)
+	println(zero, one, test)
+}

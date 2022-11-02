@@ -2,6 +2,7 @@ package main
 
 //GO only has for loops
 func main() {
+	println("Loop");
 	var i int
 	for i < 5 {
 		println(i)
@@ -12,11 +13,12 @@ func main() {
 		println("continuing...")
 	}
 
+	println("Loop with clauses");
 	for c := 0; c < 5; c++ {
 		println(c)
 	}
 
-	//Infinite Loop
+	println("Infinite Loop");
 	var x int
 	for { // or for ;;{}
 		if x == 5 {
